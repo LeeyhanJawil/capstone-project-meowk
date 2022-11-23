@@ -30,7 +30,6 @@ class AppServiceProvider extends ServiceProvider
             $image = DB::table('barangayimages')
             ->where('barangay_id','=','1')->first();
             $view->with('image',$image);
-
         });
         view()->composer('pages.AdminPanel.certificate',function($view){
             $layout = DB::table('certificate_layouts')
