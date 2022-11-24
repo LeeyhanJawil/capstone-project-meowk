@@ -359,7 +359,7 @@
 
                                             <div class="item form-group">
                                                 <label class="col-form-label col-md-3 col-sm-3 label-align"
-                                                    for="first-name">Address 1
+                                                    for="first-name">Father's Address
                                                 </label>
                                                 <div class="col-md-12 col-sm-12 ">
                                                     <input type="text" id="address_1" name="address_1"
@@ -376,7 +376,7 @@
 
                                             <div class="item form-group">
                                                 <label class="col-form-label col-md-3 col-sm-3 label-align"
-                                                    for="first-name">Address 2
+                                                    for="first-name">Mother's Address 
                                                 </label>
                                                 <div class="col-md-12 col-sm-12 ">
                                                     <input type="text" id="address_2" name="address_2"
@@ -735,7 +735,7 @@
 
 
                                 <div class="item form-group">
-                                    <label class="col-form-label col-md-3 col-sm-3 label-align" for="first-name">Address 1
+                                    <label class="col-form-label col-md-3 col-sm-3 label-align" for="first-name">Father's Address 
                                     </label>
                                     <div class="col-md-12 col-sm-12 ">
                                         <input type="text" id="address_1v" readonly name="address_1v"
@@ -746,7 +746,7 @@
 
 
                                 <div class="item form-group">
-                                    <label class="col-form-label col-md-3 col-sm-3 label-align">Address 2
+                                    <label class="col-form-label col-md-3 col-sm-3 label-align">Mother's Address 
                                     </label>
                                     <div class="col-md-12 col-sm-12 ">
                                         <input type="text" id="address_2v" readonly name="address_2v"
@@ -845,7 +845,7 @@
                                     <thead>
                                         <tr class="headings">
 
-                                            <th class="column-title">Blotter-ID</th>
+                                            <th class="column-title">Complaint-ID</th>
                                             <th class="column-title">Incident Type</th>
                                             <th class="column-title">Status </th>
                                             <th class="column-title">Date Reported </th>

@@ -231,7 +231,7 @@
                 <thead>
                    <tr class="headings">
                       <th class="column-title">Action</th>
-                      <th class="column-title">Blotter Id </th>
+                      <th class="column-title">Compalaint Id </th>
 
                       <th class="column-title">Date Recorded </th>
                       <th class="column-title">Time Recorded  </th>
@@ -280,7 +280,7 @@
                 <thead>
                    <tr class="headings">
                       <th class="column-title">Action</th>
-                      <th class="column-title">Blotter Id </th>
+                      <th class="column-title">Complaint Id </th>
 
                       <th class="column-title">Date Recorded </th>
                       <th class="column-title">Time Recorded  </th>
@@ -336,7 +336,7 @@
                 <thead>
                    <tr class="headings">
                       <th class="column-title">Action</th>
-                      <th class="column-title">Blotter Id </th>
+                      <th class="column-title">Complaint Id </th>
 
                       <th class="column-title">Date Recorded </th>
                       <th class="column-title">Time Recorded  </th>
