@@ -7,16 +7,21 @@
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
         </ol>
-        <div class="carousel-inner" style="background-color: grey">
+        <div class="carousel-inner" style="background-color: grey" >
 
             <div class="carousel-item active">
                 <div class="d-flex justify-content-between">
                     <div class="w-75 p-2">
-                        <h2 class="text-center text-white">Banlasan</h2>
-                        <p class="text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor deleniti
-                            reprehenderit ab alias
-                            suscipit aliquid nesciunt fugit incidunt soluta aperiam molestiae dolores earum vel quia nobis
-                            illo, adipisci, in ut velit architecto itaque, corrupti exercitationem!</p>
+                        <h2 class="text-center text-white">Banlasan Profile</h2> <br>
+                        <p class="text-white">
+                            Total Land Area:            270.9274 <br>       
+                            Total Population:           1,090 <br>
+                            Total No. of Household:     228<br>
+                            Total of Families:          299<br>
+                            Total No. of Water Consumer: 110<br>
+                            Total No. of Electric Consumer: 274
+            
+                        </p>
                     </div>
                     <div>
                         <img src="{{ URL::asset('images/bg2.jpg') }}" style="width:100%;">
@@ -27,11 +32,11 @@
             <div class="carousel-item">
                 <div class="d-flex justify-content-between">
                     <div class="w-75 p-2">
-                        <h2 class="text-center text-white">Vission</h2>
-                        <p class="text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor deleniti
-                            reprehenderit ab alias
-                            suscipit aliquid nesciunt fugit incidunt soluta aperiam molestiae dolores earum vel quia nobis
-                            illo, adipisci, in ut velit architecto itaque, corrupti exercitationem!</p>
+                        <h2 class="text-center text-white">Vision</h2> <br>
+                        <p class="text-white">A progressive barangay with good perseverance lead by competent and
+                            responsible barangay leaders with the support and unity of the constituent working hand 
+                            in hand resulting to a progressive suitable form of living prompting the barangay livelihood
+                            programs.</p>
                     </div>
                     <div>
                         <img src="{{ URL::asset('images/bg2.jpg') }}" style="width:100%;">
@@ -41,11 +46,8 @@
             <div class="carousel-item">
                 <div class="d-flex justify-content-between">
                     <div class="w-75 p-2">
-                        <h2 class="text-center text-white">Mission</h2>
-                        <p class="text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor deleniti
-                            reprehenderit ab alias
-                            suscipit aliquid nesciunt fugit incidunt soluta aperiam molestiae dolores earum vel quia nobis
-                            illo, adipisci, in ut velit architecto itaque, corrupti exercitationem!</p>
+                        <h2 class="text-center text-white">Mission</h2> <br>
+                        <p class="text-white">To deliver efficient quality and productive service to the constituents.</p>
                     </div>
                     <div>
                         <img src="{{ URL::asset('images/bg2.jpg') }}" style="width:100%;">
@@ -67,14 +69,7 @@
     </div>
     <div class="card mt-3" style="width: 100%;height: 100%;">
         <div class="card-body">
-            <h5 class="card-title text-center">Barangay Banlasan, Tubigon, Bohol</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.
-                Some quick example text to build on the card title and make up the bulk of the card's
-                content.Some quick example text to build on the card title and make up the bulk of the card's
-                content.Some quick example text to build on the card title and make up the bulk of the card's
-                content.
-            </p>
+            <strong><h3 class="card-title text-center">THIS IS A CHILD-FRIENDLY BARANGAY.</h3></strong>
         </div>
     </div>
 @endsection

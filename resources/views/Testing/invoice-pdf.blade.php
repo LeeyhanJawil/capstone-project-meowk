@@ -59,7 +59,7 @@
                         </tr>
                         <tr>
                             <th> Invoice Date: </th>
-                            <td class="text-right">Oct 1, 2018</td>
+                            <td class="text-right"></td>
                         </tr>
                     </tbody>
                 </table>
@@ -88,13 +88,13 @@
             <tbody>
                 <tr>
                     <td><div><strong>Service</strong></div>
-                        <p>Description here. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt maiores placeat similique nisi. Nisi ratione, molestias exercitationem illo reiciendis cumque?</p></td>
+                        <p>Description here. </p></td>
                         <td></td>
                         <td class="text-right">$600</td>
                 </tr>
                 <tr>
                     <td><div><strong>Service</strong></div>
-                        <p>Description here. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt maiores placeat similique nisi. Nisi ratione, molestias exercitationem illo reiciendis cumque?</p></td>
+                        <p>Description here. </p></td>
                         <td></td>
                         <td class="text-right">$600</td>
                 </tr>
