@@ -29,11 +29,11 @@
 
    </head>
    <body>
-      <div class="d-flex" id="wrapper">
+      <div class="d-flex overflow-auto" id="wrapper">
          @include('inc.nav')
-         <div id="page-content-wrapper">
+         <div id="page-content-wrapper" >
             @include('inc.top_nav')
-            <div class="container-fluid main-body" id="body">
+            <div class="container-fluid main-body overflow-auto" id="body">
                @yield('content')
             </div>
          </div>

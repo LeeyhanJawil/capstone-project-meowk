@@ -19,7 +19,7 @@
             <button class="tablinks active" onclick="schedules(event, 'schedule')">Account Setting</button>
             <button class="tablinks " id="tablink-create-account" onclick="schedules(event, 'create') ">Create Account</button>
             <button class="tablinks"  id="tablink-manage-account" onclick="schedules(event, 'manage')">Manage Account</button>
-            <button class="tablinks"  id="tablink-manage-account" onclick="schedules(event, 'resident')">Manage Resident Account</button>
+            <!-- <button class="tablinks"  id="tablink-manage-account" onclick="schedules(event, 'resident')">Manage Resident Account</button> -->
             <button class="tablinks" id="tablink-session-history" onclick="schedules(event, 'session')">Session History</button>
          </div>
 

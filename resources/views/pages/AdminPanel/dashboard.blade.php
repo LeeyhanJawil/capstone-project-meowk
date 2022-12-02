@@ -1,7 +1,7 @@
 @extends('layouts.apps')
 @section('content')
     <div class="col-sm-5 text-left ">
-        <h1 class="border-bottom border-bot pt-3">Dashboard</h1>
+        <h1 class=" pt-3">Dashboard</h1>
     </div>
 
     <div class="main-wrapper col-sm-12 text-left h-100  pr-0 pl-0 pt-2 text-white">
@@ -39,7 +39,7 @@
                         <h3 class="mb-0"><b>Barangay Current Officials</b></h3>
                     </div>
                     <table class="table table-striped jambo_table bulk_action text-center">
-                        <thead>
+                        <thead style="background-color:grey;">
                             <tr class="headings">
                                 <th class="column-title">Name </th>
                                 <th class="column-title">Position </th>
@@ -78,7 +78,7 @@
                         <h3 class="mb-0"><b>Areas/Puroks</b></h3>
                     </div>
                     <table class="table table-striped jambo_table ">
-                        <thead>
+                        <thead style="background-color:grey;">
                             <tr class="headings">
                                 <th class="column-title">Area </th>
                                 <th class="column-title">People </th>

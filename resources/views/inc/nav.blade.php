@@ -1,8 +1,8 @@
-<div class="bg-light border-right" id="sidebar-wrapper" style="width: 280px;">
+<div class="bg-light border-right" id="sidebar-wrapper" style="width: 280px; ">
 
     @include('layouts.image')
 
-    <div class="list-group pt-3 mt-1 ">
+    <div class="list-group pt-3 mt-1 overflow-auto">
         <li class="list-none"><a href="/dashboard"
                 class="list-group-item list-group-item-action bg-light text-adjust {{ request()->is('dashboard*') ? 'active-page' : '' }}"><i
                     class="fa fa-home fa-lg icon-adjust"></i> Dashboard</a> </li>
@@ -32,13 +32,13 @@
 
 
 
-        <li class="list-none ">
+        <li class="list-none overflow-auto">
             <button id="dropdown-btn"
-                class="dropdown-btn list-group-item list-group-item-action bg-light text-adjust  {{ request()->is('certificate*') ? 'active-page' : '' }}"><i
+                class="overflow-auto  dropdown-btn list-group-item list-group-item-action bg-light text-adjust  {{ request()->is('certificate*') ? 'active-page' : '' }}"><i
                     class="fa fa-certificate fa-lg icon-adjust"></i>Certificates
                 <span class="fa fa-caret-down align"></span>
             </button>
-            <div class="dropdown-container list-group {{ request()->is('certificate*') ? 'active' : '' }}"
+            <div class="overflow-auto dropdown-container list-group {{ request()->is('certificate*') ? 'active' : '' }}"
                 id="dropdown-btns">
                 <a href="/certificate_clearance"
                     class="list-group-item list-group-item-action text-light  bg-dark {{ request()->is('/certificate_clearance*') ? 'active-page' : '' }}"><i

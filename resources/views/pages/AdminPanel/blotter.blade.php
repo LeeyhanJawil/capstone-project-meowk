@@ -291,7 +291,7 @@
 
          <div class="modal-body">
             <table  class="bulk_action dataTables_info table datatable-element table-striped jambo_table bulk_action text-center border no-footer">
-               <thead>
+               <thead style="background-color:grey;">
                   <tr class="headings">
                      {{-- <th class="column-title">Complaint Id</th> --}}
                      <th class="column-title">Status</th>
@@ -374,7 +374,7 @@
 
 
   <table id="blotter-table" class="bulk_action dataTables_info table datatable-element resident table-striped jambo_table bulk_action text-center border dataTable no-footer data-table">
-            <thead>
+            <thead style="background-color:grey;">
                <tr class="headings">
                   <th class="column-title">Action</th>
                   <th class="column-title">Complaint Id </th>

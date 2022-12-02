@@ -183,7 +183,7 @@
 
          <div id="schedule" class="tabcontent overflow-auto ">
             <table class=" overflow-auto table dataTables_info datatable-element resident table-striped jambo_table bulk_action text-center border table_schedule">
-                <thead>
+                <thead style="background-color:grey;">
                    <tr class="headings">
                       <th class="column-title">Action</th>
                       <th class="column-title">Blotter Id </th>

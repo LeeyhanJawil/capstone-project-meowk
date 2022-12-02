@@ -34,6 +34,7 @@
                     <input type="text" name="text" id="text" readonly placeholder="scan qr code "
                         class="form-control">
                 </form>
+                <a href="{{ url('/all-attendance') }}" class="btn btn-primary" style="margin-top: 50px; margin-left: 50px;"><span class="fas fa-arrow-left"></span> Go to Attendance</a>
             </div>
         </div>
     </div>
