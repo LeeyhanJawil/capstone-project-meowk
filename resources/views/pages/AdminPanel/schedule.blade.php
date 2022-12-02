@@ -186,7 +186,7 @@
                 <thead style="background-color:grey;">
                    <tr class="headings">
                       <th class="column-title">Action</th>
-                      <th class="column-title">Blotter Id </th>
+                      <th class="column-title">Complaint Id </th>
 
                       <th class="column-title">Date Recorded </th>
                       <th class="column-title">Time Recorded  </th>
@@ -499,8 +499,8 @@
 
         $.get("{{ route('schedules.index') }}" +'/' + blotter_id +'/edit', function (data) {
          $('#editscheduledata').modal('show');
-         $('#editmodelHeading').html("Edit BLotter");
-         $('#edit_blotterid_schedule').html("BLotter ID " + data[0].blotter_id);
+         $('#editmodelHeading').html("Edit Complaint");
+         $('#edit_blotterid_schedule').html("Complaint ID " + data[0].blotter_id);
 
          $('#blotter_id').val(data[0].blotter_id);
          $('#incident_location').val(data[0].incident_location);
@@ -568,7 +568,7 @@
          var tbody = ' <tbody class="blotter-list-data"></tbody>';
          if(len > 0){
             $('.blotter-list-data').remove();
-            $('#blotter_list-table').append(tbody);
+            $('#blotter_list-table').append(tbody);s
             for(var i = 0; i <len;i++){
                var resident_id = data[1][i].resident_id;
                var person_involve = data[1][i].person_involve;
@@ -582,7 +582,7 @@
             }
          }
          else{
-            console.log("No BLotter Data Available");
+            console.log("No Complaint Data Available");
          }
                });
 

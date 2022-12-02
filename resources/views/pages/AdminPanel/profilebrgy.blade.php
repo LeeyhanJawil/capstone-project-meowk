@@ -68,7 +68,7 @@
 
     </div>
     <div class="card mt-3" style="width: 100%;height: 100%;">
-        <div class="card-body shadow-lg" style="background-color:grey; color:whitesmoke;">
+        <div class="card-body shadow-lg" style="background-color:grey; color:white;">
             <strong><h3 class="card-title text-center">THIS IS A CHILD-FRIENDLY BARANGAY.</h3></strong>
         </div>
     </div>

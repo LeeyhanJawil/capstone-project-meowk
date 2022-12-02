@@ -667,12 +667,7 @@
 
 
                                 <div class="row" style="margin-left: 0px;margin-right: 0px;">
-                                    <div class="col-sm-6">
-                                        <label>PAG-IBIG</label>
-                                        <input type="text" class="form-control" readonly name="PAG_IBIGv"
-                                            id="PAG_IBIGv">
-
-                                    </div>
+                                   
                                     <div class="col-sm-6 ">
                                         <label>PHILHEALTH</label>
                                         <input type="text" class="form-control" readonly name="PHILHEALTHv"
@@ -689,12 +684,7 @@
                                             id="SSSv">
 
                                     </div>
-                                    <div class="col-sm-6 ">
-                                        <label>TIN</label>
-                                        <input type="text" class="form-control" readonly name="TINv"
-                                            id="TINv">
-
-                                    </div>
+                                    
                                 </div>
 
                               
@@ -753,83 +743,8 @@
                                             class="form-control ">
                                     </div>
                                 </div>
-
-
-
-
-
-
-
-
-
                             </div>
-
-
-                            <!----------------
-                                    -->
-
-
-
-
-
-
                         </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -859,9 +774,6 @@
 
                                 </table>
                             </div>
-
-
-
 
 
 

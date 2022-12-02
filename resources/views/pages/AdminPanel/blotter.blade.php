@@ -300,7 +300,7 @@
                      <th class="column-title">Incident Date</th>
                      <th class="column-title">Incident Time</th>
                      <th class="column-title">Schedule Date</th>
-                     {{-- <th class="column-title">Schedule Time</th> --}}
+                     <th class="column-title">Schedule Time</th>
                   </tr>
                </thead>
                <tbody>
@@ -533,7 +533,7 @@
                  $('#saveBtn').val("create-blotter");
                  $('#blotter_id').val('');
                  $('#blotterform').trigger("reset");
-                 $('#modelHeading').html("Create New Blotter");
+                 $('#modelHeading').html("Create New Complaint");
                  $(document).find('span.error-text').text('');
                  $('#blottermodal').modal('show');
              });
@@ -541,7 +541,7 @@
              $('body').on('click', '.viewBlotter', function(){
                var blotter_id = $(this).data('id');
                $.get("{{ route('blotters.index') }}" +'/' + blotter_id +'/edit', function (data) {
-                  $('#viewmodelHeading').html("View BLotter");
+                  $('#viewmodelHeading').html("View Complaint");
                   $('#status').html(data[0].status);
                   $('#viewblottermodal').modal('show');
                   $('#viewblotter_id').html(data[0].blotter_id);
@@ -573,7 +573,7 @@
                      }
                   }
                   else{
-                     console.log("No BLotter Data Available");
+                     console.log("No Complaint Data Available");
                   }
                })
              });
@@ -584,7 +584,7 @@
                $("#saveBtn").attr("disabled", false);
                $('#blotterform').trigger("reset");
                $.get("{{ route('blotters.index') }}" +'/' + blotter_id +'/edit', function (data) {
-                  $('#modelHeading').html("Edit Blotter");
+                  $('#modelHeading').html("Edit Complaint");
                   $('#saveBtn').val("edit-blotter");
                   $('#blottermodal').modal('show');
                   $('#blotter_id').val(data[0].blotter_id);
@@ -690,7 +690,7 @@
 
 
          });
-               // Blotter and Narrative Report End
+               // Complaint and Narrative Report End
 
          });
 
